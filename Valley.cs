@@ -12,6 +12,7 @@ namespace Pruebas
         {
             Console.WriteLine("Estas en un valle...");
             Console.WriteLine("Decides caminar por el campo.");
+            Console.WriteLine("Encuentras una espada.");
             Console.ReadLine();
         }
 
