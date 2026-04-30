@@ -8,14 +8,27 @@ namespace Pruebas
 {
     internal class Valley : Scene
     {
-        public void Play()
+        public Valley() : base("Te encuentras en un valle misterioso rodeado de montañas.")
         {
-            Console.WriteLine("Estas en un valle...");
-            Console.WriteLine("Decides caminar por el campo.");
-            Console.WriteLine("Encuentras una espada.");
+        }
+        public override void Play()
+        {
+            Console.WriteLine(description);
+            Console.WriteLine("1: Explorar");
+            Console.WriteLine("2: Salir corriendo");
+
+            int option = int.Parse(Console.ReadLine());
+
+            if (option == 1)
+            {
+                Console.WriteLine("Encuentras un camino misterioso...");
+            }
+            else
+            {
+                Console.WriteLine("Huyes del bosque asustado.");
+            }
+
             Console.ReadLine();
         }
-
     }
-
 }
