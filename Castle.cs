@@ -19,7 +19,7 @@ namespace Pruebas
             int option = int.Parse(Console.ReadLine());
             if (option == 1)
             {
-                Console.WriteLine("Dentro del castillo encuentras un tesoro escondido... tan escondido que nunca lo llegaste a encontrar. FIN");
+                Console.WriteLine("Dentro del castillo encuentras un tesoro escondido... tan escondido que nunca lo llegaste a encontrar del todo. FIN");
             }
             else
             {

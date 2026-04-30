@@ -10,10 +10,9 @@ namespace Pruebas
     {
         static void Main(string[] args)
         {
-            
-             Valley valley = new Valley();
-             valley.Play();
-            
+
+            Menu menu = new Menu();
+            menu.Execute();
         }
     }
 }
